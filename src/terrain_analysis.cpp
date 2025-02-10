@@ -505,7 +505,7 @@ void TerrainAnalysisNode::processLaserCloud()
           int planar_point_elev_size =
             planar_point_elev_[planar_voxel_width_ * ind_x + ind_y].size();
           if (
-            dis_z >= 0.1 && dis_z < vehicle_height_ &&
+            dis_z >= 0 && dis_z < vehicle_height_ &&
             planar_point_elev_size >= min_block_point_num_) {
             terrain_cloud_elev_->push_back(point);
             terrain_cloud_elev_->points[terrain_cloud_elev_size].intensity = dis_z;
