@@ -67,7 +67,7 @@ TerrainAnalysisNode::TerrainAnalysisNode(const rclcpp::NodeOptions & options)
   get_parameter("max_ground_lift", max_ground_lift_);
   get_parameter("clear_dy_obs", clear_dy_obs_);
   get_parameter("min_dy_obs_dis", min_dy_obs_dis_);
-  get_parameter("minDyObAngle", min_dy_obs_angle_);
+  get_parameter("min_dy_obs_angle", min_dy_obs_angle_);
   get_parameter("min_dy_obs_rel_z", min_dy_obs_rel_z_);
   get_parameter("abs_dy_obs_rel_z_thre", abs_dy_obs_rel_z_thre_);
   get_parameter("min_dy_obs_vfov", min_dy_obs_vfov_);
